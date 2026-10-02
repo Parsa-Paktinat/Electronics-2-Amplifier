@@ -22,7 +22,7 @@ The reported Phase 1 design uses:
 
 Biasing throughout is arranged with current references and multiple current mirrors, and active loads are preferred over resistors for gain and cost reasons.
 
-> The supplied [`reports/Electronics2_Report_Template.pdf`](reports/Electronics2_Report_Template.pdf) is a **partly filled Phase 1 report** (it already contains the Phase 1 design narrative and results), not a blank course template. No additional unverified Phase 1 numerical results are asserted in this README; see the report itself for the detailed figures.
+> The supplied [`reports/phase2_report.pdf`](reports/phase2_report.pdf) is a **partly filled Phase 1 report** (it already contains the Phase 1 design narrative and results), not a blank course template. No additional unverified Phase 1 numerical results are asserted in this README; see the report itself for the detailed figures.
 
 ## Phase 2 — Output Stage, Biasing, and Global Negative Feedback
 
@@ -34,7 +34,7 @@ Phase 2 extends the Phase 1 amplifier so it can drive a **50 Ω load**, by addin
 
 For the closed-loop design, the feedback network uses **Rg = 10 kΩ** and **Rf = 190 kΩ**, giving a nominal closed-loop gain of approximately **20 V/V** (1 + Rf/Rg). These values are **LTspice simulation / report values**, not hardware measurements.
 
-The Phase 2 report ([`reports/ph2_report_403101518.pdf`](reports/ph2_report_403101518.pdf)) documents the resulting closed-loop performance against the Phase 2 requirements (closed-loop gain, output swing, efficiency, THD, PSRR, and cost budget). Please consult the report for those numbers rather than inferring Phase 1 performance from the open-loop plots below.
+The Phase 2 report ([`reports/phase2_report.pdf`](reports/phase2_report.pdf)) documents the resulting closed-loop performance against the Phase 2 requirements (closed-loop gain, output swing, efficiency, THD, PSRR, and cost budget). Please consult the report for those numbers rather than inferring Phase 1 performance from the open-loop plots below.
 
 ## Circuit Architecture
 
@@ -70,8 +70,8 @@ The following two waveforms are transient-simulation waveforms for the input aud
 
 Audio files:
 
-- [Input audio](audio/audio.wav)
-- [Output audio](audio/output.wav)
+- [Input audio](audio/audio_input.wav)
+- [Output audio](audio/audio_output.wav)
 
 ## Repository Structure
 
@@ -81,16 +81,16 @@ Electronics-2-Amplifier/
 ├── README.md
 │
 ├── simulation/
-│   ├── phase1_amplifier.asc
+│   ├── phase1_differential_amplifier.asc
 │   └── phase2_closed_loop_amplifier.asc
 │
 ├── reports/
-│   ├── Electronics2_Report_Template.pdf
-│   └── ph2_report_403101518.pdf
+│   ├── phase1_report.pdf
+│   └── phase2_report.pdf
 │
 ├── audio/
-│   ├── audio.wav
-│   └── output.wav
+│   ├── audio_input.wav
+│   └── audio_output.wav
 │
 └── assets/
     ├── schematic_overview.png
@@ -106,8 +106,8 @@ Electronics-2-Amplifier/
 
 ## References
 
-- Phase 1 report: [`reports/Electronics2_Report_Template.pdf`](reports/Electronics2_Report_Template.pdf)
-- Phase 2 report: [`reports/ph2_report_403101518.pdf`](reports/ph2_report_403101518.pdf)
+- Phase 1 report: [`reports/phase1_report.pdf`](reports/phase1_report.pdf)
+- Phase 2 report: [`reports/phase2_report.pdf`](reports/phase2_report.pdf)
 
 ## Notes
 
