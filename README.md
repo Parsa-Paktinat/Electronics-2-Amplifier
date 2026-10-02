@@ -2,7 +2,7 @@
 
 ## Overview
 
-Electronics-2-Amplifier documents a two-phase analog amplifier project designed and evaluated entirely in **LTspice**. The repository includes circuit schematics, AC and transient simulation plots, audio-related transient waveforms, and the project reports.
+Electronics-2-Amplifier documents a two-phase project designed and evaluated entirely in **LTspice**. The repository includes circuit schematics, AC and transient simulation plots, audio-related transient waveforms, and the project reports.
 
 - **Phase 1** centers on a **very high-gain open-loop amplifier** that meets the project's Phase 1 specifications (high differential gain, high CMRR, wide output swing, and a specified load).
 - **Phase 2** centers on **closing the loop**: adding a power output stage capable of driving a low-impedance load and applying **global negative feedback** to set a stable closed-loop gain.
