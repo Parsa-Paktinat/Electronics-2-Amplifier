@@ -32,28 +32,38 @@ All reported results are based on LTspice simulations, not physical hardware mea
 
 ### Circuit Schematic
 
+The circuit schematic is provided as an LTspice circuit image:
+
 ![LTspice circuit schematic](assets/schematic_overview.png)
 
 ### Simulation Results
 
+The plots below are results from LTspice simulations:
+
 **AC response**
+
+The AC analysis plot shows approximately 1 V AC at the input and 20 V AC at the output, corresponding to an approximate voltage gain of **20 V/V** under the displayed plot conditions.
 
 ![AC response plot](assets/ac_response.png)
 
 **Transient response**
 
+The transient waveform shows a 50 mV input and an output amplitude of approximately 8 V.
+
 ![Transient response plot](assets/transient_response.png)
 
 ### Audio Demonstration
 
-Simulated input and output audio waveforms:
+The following two waveforms are transient-simulation waveforms for the input audio and output audio:
 
 ![Audio waveform 1](assets/audio_waveform_1.png)
 
 ![Audio waveform 2](assets/audio_waveform_2.png)
 
-* [Input audio](audio/audio_input.png)
-* [Output audio](audio/audio_output.png)
+Audio files:
+
+- [Input audio](audio/audio_input.png)
+- [Output audio](audio/audio_output.png)
 
 ## Repository Structure
 
