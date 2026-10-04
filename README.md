@@ -16,7 +16,7 @@ The design targets high differential gain, high common-mode rejection ratio (CMR
 
 Extended the design with a complementary BJT push-pull output stage using Darlington pairs, diode-connected transistor biasing, and global negative feedback.
 
-The feedback network uses $R_g = 10\,\text{k}\Omega$ and $R_f = 190\,\text{k}\Omega$, corresponding to a nominal closed-loop gain of approximately 20 V/V.
+The feedback network uses $R_g = 10\ \text{k}\Omega$ and $R_f = 190\ \text{k}\Omega$, corresponding to a nominal closed-loop gain of approximately 20 V/V.
 
 ## Tools and Technologies
 
