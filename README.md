@@ -1,6 +1,6 @@
 # Electronics-2-Amplifier
 
-A two-phase analog amplifier design project completed for the **Electronics II** course at Sharif University of Technology.
+A two-phase analog amplifier design project completed for the **Electronics II (EE 25-032)** course at EE department, Sharif University of Technology.
 
 ## Overview
 
@@ -97,3 +97,9 @@ Electronics-2-Amplifier/
 * Phase 1 open-loop specifications and Phase 2 closed-loop results represent different design objectives and should not be directly conflated.
 * Reported gain and component values are based on circuit design and simulation, not hardware measurements.
 * Consult each phase report for detailed specifications, performance metrics, and simulation results.
+
+## Credits
+
+|  Student Name  |        School      |
+| :------------- | :----------------- |
+| Parsa Paktinat | EE Department, Sharif University of Technology |
